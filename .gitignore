@@ -1,0 +1,12 @@
+# Go stuff
+bin/
+vendor/
+*.exe
+*.test
+*.out
+
+# K8s + Controller-gen
+config/crd/bases
+hack/boilerplate.go.txt
+*.log
+.DS_Store
