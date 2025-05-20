@@ -19,6 +19,7 @@ rules:
   - serviceentries
   verbs:
   - create
+  - delete
   - get
   - list
   - patch

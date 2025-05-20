@@ -1,18 +1,10 @@
 # headless-istio-operator
-This Kubernetes operator automatically watches headless Services and creates or updates Istio ServiceEntries with pod IPs — replacing legacy bash+cron-based solutions.
-
+// TODO(user): Add simple overview of use/purpose
 
 ## Description
-- Watches for headless services (`ClusterIP: None`)
-- Gets endpoint IPs and syncs to Istio `ServiceEntry`
-- Deletes `ServiceEntry` if Service is deleted
-- No manual patching or CronJob needed
-- Works with Istio 1.22+, GKE, and OpenShift
+// TODO(user): An in-depth paragraph about your project and overview of use
 
 ## Getting Started
-- Build & push Docker image
-- `make deploy` to install operator on cluster
-- Add a headless service and watch it sync
 
 ### Prerequisites
 - go version v1.23.0+
@@ -127,17 +119,4 @@ More information can be found via the [Kubebuilder Documentation](https://book.k
 
 ## License
 
-Copyright 2025.
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-
+Apache 2.0
